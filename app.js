@@ -67,7 +67,7 @@ if (obj.classList.contains('add-card')){
     let cardList= obj.closest('.list').querySelector('.card-list');
     cardList.append(cardText);
     let deleteIco =document.createElement('img');
-    deleteIco.setAttribute('scr',);
+    deleteIco.setAttribute('scr','https://cdn.icon-icons.com/icons2/10/PNG/256/remove_delete_exit_close_1545.png');
     deleteIco.classList.add('delete-text');
     cardList.append(deleteIco);
 }
