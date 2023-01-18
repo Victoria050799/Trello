@@ -91,3 +91,5 @@ function editList(event) {
         delIco.remove(obj);
     }
 };
+
+//Попытаться распределить функции по файлам
