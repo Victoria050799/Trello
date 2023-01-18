@@ -90,4 +90,4 @@ function editList(event) {
         let delIco = obj.closest('.card-list').querySelector('.delete-text');
         delIco.remove(obj);
     }
-}
+};
